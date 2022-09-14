@@ -22,9 +22,7 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-* -------------------------------------------------------------------------- */
-/*                                 SCROLL_CSS                                 */
-/* -------------------------------------------------------------------------- */
+
 
 .scroll::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -43,9 +41,6 @@ body {
   background-color: rgb(197, 195, 195);
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                  CAROUSEL                                  */
-/* -------------------------------------------------------------------------- */
 .react-multiple-carousel__arrow{
   z-index: 200 !important;
   min-width: 30px !important;

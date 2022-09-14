@@ -1,8 +1,7 @@
 import React from "react";
 import ProductCard from "../cards/ProductCard";
 import { KitchenOffersData } from "../../data/kitchenOffersData";
-const KitchenOffers = () => { 
- 
+const KitchenOffers = () => {
   return (
     <div className="flex flex-col w-full bg-white rounded shadow ">
       <header className="px-2 flex justify-between items-center min-h-[50px] py-3 w-full bg-[#fec107]">
